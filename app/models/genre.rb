@@ -18,5 +18,5 @@ class Genre < ActiveRecord::Base
     self.artists.each { |artist| artist_names << artist.name }
     artist_names
   end
-  
+
 end
